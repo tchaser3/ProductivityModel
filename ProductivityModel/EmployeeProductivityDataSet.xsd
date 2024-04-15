@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EmployeeProductivityDataSet" targetNamespace="http://tempuri.org/EmployeeProductivityDataSet.xsd" xmlns:mstns="http://tempuri.org/EmployeeProductivityDataSet.xsd" xmlns="http://tempuri.org/EmployeeProductivityDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EmployeeProductivityDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EmployeeProductivityDataSet" msprop:Generator_UserDSName="EmployeeProductivityDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="employeeproductivity" msprop:Generator_TableClassName="employeeproductivityDataTable" msprop:Generator_TableVarName="tableemployeeproductivity" msprop:Generator_TablePropName="employeeproductivity" msprop:Generator_RowDeletingName="employeeproductivityRowDeleting" msprop:Generator_RowChangingName="employeeproductivityRowChanging" msprop:Generator_RowEvHandlerName="employeeproductivityRowChangeEventHandler" msprop:Generator_RowDeletedName="employeeproductivityRowDeleted" msprop:Generator_UserTableName="employeeproductivity" msprop:Generator_RowChangedName="employeeproductivityRowChanged" msprop:Generator_RowEvArgName="employeeproductivityRowChangeEvent" msprop:Generator_RowClassName="employeeproductivityRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionDate" msprop:Generator_ColumnVarNameInTable="columnTransactionDate" msprop:Generator_ColumnPropNameInRow="TransactionDate" msprop:Generator_ColumnPropNameInTable="TransactionDateColumn" msprop:Generator_UserColumnName="TransactionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="WorkTask" msprop:Generator_ColumnVarNameInTable="columnWorkTask" msprop:Generator_ColumnPropNameInRow="WorkTask" msprop:Generator_ColumnPropNameInTable="WorkTaskColumn" msprop:Generator_UserColumnName="WorkTask" type="xs:string" />
+              <xs:element name="ProjectID" msprop:Generator_ColumnVarNameInTable="columnProjectID" msprop:Generator_ColumnPropNameInRow="ProjectID" msprop:Generator_ColumnPropNameInTable="ProjectIDColumn" msprop:Generator_UserColumnName="ProjectID" type="xs:string" />
+              <xs:element name="ProjectName" msprop:Generator_ColumnVarNameInTable="columnProjectName" msprop:Generator_ColumnPropNameInRow="ProjectName" msprop:Generator_ColumnPropNameInTable="ProjectNameColumn" msprop:Generator_UserColumnName="ProjectName" type="xs:string" />
+              <xs:element name="FootagePieces" msprop:Generator_ColumnVarNameInTable="columnFootagePieces" msprop:Generator_ColumnPropNameInRow="FootagePieces" msprop:Generator_ColumnPropNameInTable="FootagePiecesColumn" msprop:Generator_UserColumnName="FootagePieces" type="xs:decimal" />
+              <xs:element name="ProductivityRate" msprop:Generator_ColumnVarNameInTable="columnProductivityRate" msprop:Generator_ColumnPropNameInRow="ProductivityRate" msprop:Generator_ColumnPropNameInTable="ProductivityRateColumn" msprop:Generator_UserColumnName="ProductivityRate" type="xs:decimal" />
+              <xs:element name="ProductivityPrice" msprop:Generator_ColumnVarNameInTable="columnProductivityPrice" msprop:Generator_ColumnPropNameInRow="ProductivityPrice" msprop:Generator_ColumnPropNameInTable="ProductivityPriceColumn" msprop:Generator_UserColumnName="ProductivityPrice" type="xs:decimal" />
+              <xs:element name="TaskHours" msprop:Generator_ColumnVarNameInTable="columnTaskHours" msprop:Generator_ColumnPropNameInRow="TaskHours" msprop:Generator_ColumnPropNameInTable="TaskHoursColumn" msprop:Generator_UserColumnName="TaskHours" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
